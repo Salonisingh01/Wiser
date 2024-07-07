@@ -15,5 +15,5 @@
   #  Categorized by academic subjects(e.g., Physics , Literature)
    # Provides links to downloadable study materials such as PDF notes , e-books, lecture slides, and educational videos .
 
-    By integrating these features and design considerations, Wiser aims to provide a user-friendly and comprehensive platform for students and learners, seeking educational resources, whether it's information about colleges, tutors, or study materials.
+   #  By integrating these features and design considerations, Wiser aims to provide a user-friendly and comprehensive platform for students and learners, seeking educational resources, whether it's information about colleges, tutors, or study materials.
     
