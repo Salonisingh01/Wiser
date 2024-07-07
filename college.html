@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colleges</title>
+     <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--CSS STYLESHEET LINK-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+
+        <section class="flex">
+          <div class="logoo"><i class="fa-brands fa-slack"></i><a href="home.html" class="logo">W!SER</a></div>
+           <div class="icons">
+              <div id="toggle-btn" class="fa-solid fa-circle-half-stroke" onclick="myFunction()"></div>
+              <div id="search-btn" class="fas fa-search"></div>
+            </div>
+            <div class="info">
+                <a href="login.html" class="login">Log in</a>
+                <a href="sign.html" class="signup" >Sign Up</a>
+            </div>
+          </section>
+  
+          <section class="flex2">
+              <a href="home.html">HOME</a>
+              <a href="courses.html">COURSES</a>
+              <a href="tutors.html">TUTORS</a>
+              <a href="college.html">COLLEGES</a>
+              <a href="material.html">STUDY MATERIALS</a>
+          </section>
+   </header>
+  <div class="banner">
+     <h1>Best Colleges in Gurgaon -2024 Admission ,Fees, Placements </h1>
+     <a href="#" style="color:grey;"> Read more</a>
+ </div>
+
+ <!--Main section starts -->
+
+ <div class="parts">
+
+    <div class="part1">
+        <div class="filter" style="padding: 15px;"><i class="fa-solid fa-filter" style="color: #000000; font-size:20px ; margin: 5px;"></i><span >All Filters</span><span style="color: #0f57ab; margin-left: 140px;">Clear All</span></div>
+        
+        <!--location--> 
+        <div class="wrapper">
+              <div class="collapsible">
+                  <input type="checkbox" id="collap-head">
+                  <label for="collap-head">Location</label>
+                <div class="collap-text">
+                    <div class="in">
+                        <i class="fa-solid fa-magnifying-glass" style=" font-size:20px ; margin: 10px;"></i>
+                        <input type="submit" placeholder="Location" class="search" value="search"   style="font-size: 25px;">Location</input>
+                    </div>
+                    <ul class="lazy">
+                        <li><a class="choices" href="#">
+                             <div class="fd">
+                                  <input type="checkbox" name="DELHI"></input>
+                                  <label class="name" for="DELHI">Delhi/NCR</label>
+                                </div></a>
+                       </li>
+                       <li><a class="choices" href="#">
+                          <div class="fd">
+                             <input type="checkbox" name="banglore"></input>
+                             <label class="name" for="banglore">Banglore</label>
+                           </div></a>
+                     </li>
+                       <li><a class="choices" href="#">
+                          <div class="fd">
+                             <input type="checkbox" name="pune"></input>
+                              <label class="name" for="pune">Pune</label>
+                          </div></a>
+                      </li>
+                      <li><a class="choices" href="#">
+                           <div class="fd">
+                              <input type="checkbox" name="mumbai"></input>
+                              <label class="name" for="mumbai">Mumbai</label>
+                           </div></a>
+                      </li>
+                       <li><a class="choices" href="#">
+                          <div class="fd">
+                               <input type="checkbox" name="chennai"></input>
+                              <label class="name" for="chennai">Chennai</label>
+                           </div></a>
+                       </li>
+                        <li><a class="choices" href="#">
+                             <div class="fd">
+                                  <input type="checkbox" name="hyderabad"></input>
+                                  <label class="name" for="hyderabad">Hyderabad</label>
+                             </div></a>
+                          </li>
+                       
+                    </ul>
+                </div>
+            </div>
+         </div>
+
+       <!--SPECIALIZATION -->
+
+       <div class="wrapper">
+         <div class="collapsible1">
+        <input type="checkbox" id="collap-head1">
+        <label for="collap-head1">Specialization</label>
+      <div class="collap-text1">
+          <div class="in1">
+              <i class="fa-solid fa-magnifying-glass" style=" font-size:20px ; margin: 10px;"></i>
+              <input type="submit" placeholder="Location" class="search" value="search"   style="font-size: 25px;">Location</input>
+          </div>
+          <ul class="lazy1">
+              <li><a class="choices1" href="#">
+                   <div class="fd1">
+                        <input type="checkbox" name="cs"></input>
+                        <label class="name" for="cs">Computer Science </label>
+                      </div></a>
+             </li>
+             <li><a class="choices1" href="#">
+                <div class="fd1">
+                   <input type="checkbox" name="me"></input>
+                   <label class="name" for="me">Mechanical Engineering</label>
+                 </div></a>
+           </li>
+             <li><a class="choices1" href="#">
+                <div class="fd1">
+                   <input type="checkbox" name="CS"></input>
+                    <label class="name" for="CS">Cyber Security</label>
+                </div></a>
+            </li>
+            <li><a class="choices1" href="#">
+                 <div class="fd1">
+                    <input type="checkbox" name="re"></input>
+                    <label class="name" for="re">Robotics Engineering</label>
+                 </div></a>
+            </li>
+             <li><a class="choices1" href="#">
+                <div class="fd1">
+                     <input type="checkbox" name="gd"></input>
+                    <label class="name" for="gd">Game Design</label>
+                 </div></a>
+             </li>
+              <li><a class="choices1" href="#">
+                   <div class="fd1">
+                        <input type="checkbox" name="ce"></input>
+                        <label class="name" for="ce">Civil Engineering</label>
+                   </div></a>
+                </li>
+             
+          </ul>
+      </div>
+  </div>
+</div>
+
+<!--Total Fees-->
+ 
+<div class="wrapper">
+  <div class="collapsible">
+ <input type="checkbox" id="collap-head2">
+ <label for="collap-head2">Total Fees</label>
+<div class="collap-text">
+   <ul class="lazy">
+       <li><a class="choices" href="#">
+            <div class="fd">
+                 <input type="checkbox" name="cs"></input>
+                 <label class="name" for="cs"> < 1 Lakh</label>
+               </div></a>
+      </li>
+      <li><a class="choices" href="#">
+         <div class="fd">
+            <input type="checkbox" name="me"></input>
+            <label class="name" for="me"> 2 - 3 Lakh</label>
+          </div></a>
+    </li>
+      <li><a class="choices" href="#">
+         <div class="fd">
+            <input type="checkbox" name="CS"></input>
+             <label class="name" for="CS"> 3 - 5 Lakh </label>
+         </div></a>
+     </li>
+     <li><a class="choices" href="#">
+          <div class="fd">
+             <input type="checkbox" name="re"></input>
+             <label class="name" for="re"> >5 Lakh </label>
+          </div></a>
+     </li>
+
+   </ul>
+</div>
+</div>
+</div>
+
+<!--Rating -->
+  
+<div class="wrapper">
+    <div class="collapsible">
+   <input type="checkbox" id="collap-head3">
+   <label for="collap-head3">Rating</label>
+ <div class="collap-text">
+     <ul class="lazy">
+         <li><a class="choices" href="#">
+              <div class="fd">
+                   <input type="checkbox" name="cs"></input>
+                   <label class="name" for="cs"> 1 - 2 Star</label>
+                 </div></a>
+        </li>
+        <li><a class="choices" href="#">
+           <div class="fd">
+              <input type="checkbox" name="me"></input>
+              <label class="name" for="me"> 2 - 3 Star</label>
+            </div></a>
+      </li>
+        <li><a class="choices" href="#">
+           <div class="fd">
+              <input type="checkbox" name="CS"></input>
+               <label class="name" for="CS"> 3 - 4 Star</label>
+           </div></a>
+       </li>
+       <li><a class="choices" href="#">
+            <div class="fd">
+               <input type="checkbox" name="re"></input>
+               <label class="name" for="re"> 4 - 5 Star </label>
+            </div></a>
+       </li>
+
+     </ul>
+ </div>
+</div>
+</div>
+
+<!--Courses-->
+
+<div class="wrapper">
+    <div class="collapsible">
+   <input type="checkbox" id="collap-head4">
+   <label for="collap-head4">Courses</label>
+ <div class="collap-text">
+     <ul class="lazy">
+         <li><a class="choices" href="#">
+              <div class="fd">
+                   <input type="checkbox" name="cs"></input>
+                   <label class="name" for="cs">B.E/B.Tech</label>
+                 </div></a>
+        </li>
+        <li><a class="choices" href="#">
+           <div class="fd">
+              <input type="checkbox" name="me"></input>
+              <label class="name" for="me">M.E/M.Tech</label>
+            </div></a>
+      </li>
+        <li><a class="choices" href="#">
+           <div class="fd">
+              <input type="checkbox" name="CS"></input>
+               <label class="name" for="CS">Diploma</label>
+           </div></a>
+       </li>
+       <li><a class="choices" href="#">
+            <div class="fd">
+               <input type="checkbox" name="re"></input>
+               <label class="name" for="re">Ph.D.</label>
+            </div></a>
+       </li>
+        <li><a class="choices" href="#">
+           <div class="fd">
+                <input type="checkbox" name="gd"></input>
+               <label class="name" for="gd">Certificate</label>
+            </div></a>
+        </li>
+     </ul>
+ </div>
+</div>
+</div>
+
+</div>
+
+ <!--COLLEGE LIST-->
+     <div class="part2">
+      <!--WCTM-->
+        <div class="select">
+              <div class="names">
+                  <div class="symbol1"></div>
+                  <div class="ids"><a href="#" style="color: #0f57ab; font-size: 20px;">World College of Technology & Management</a>
+                    <div class="location"><img><span>Faruknagar .</span><span> Pvt</span><a href="#"><span style="color: #00943A; font-weight: bold;">   #56 NIRF</span></a></div>                  
+                  </div>
+              </div>
+              <hr>
+              <div class="offers">
+                 <div class="_ff">
+                  <label class="labels" style="color: gray;">Courses offered</label>
+                  <div class="ff2">
+                    <a href="#" style="color: black;"> 15 Courses</a>
+                    <a href="#"style="color: black;">star</a>
+                    <span> 3.5 </span>
+                  </div>
+                 </div>
+                 <div class="_ff">
+                  <label class="labels" style="color: gray;">Exams Accepted</label>
+                  <div class="ff2">
+                    <span>JEE Mains
+                  </div>
+                 </div>
+                 <div class="_ff">
+                  <label class="labels" style="color: gray;">Total Tuition Fees</label>
+                  <div class="ff2">₹ 2.1 L - 5 L</div>
+                 </div>
+                 <div class="_ff">
+                  <label class="labels" style="color: gray;">Median Salary</label>
+                  <div class="ff2">₹7 LPA</div>
+                 </div>
+                 <span style="margin-left:40px ;">Applications open . <a href="https://www.wctmgurgaon.com/admission2024/?utm_source=ppc&utm_medium=toffee&utm_campaign=mix&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhc95MmnCD3ZxZoNwxKi9aOjTXt6d37fvCT22-Ni0Z30MQLdpWzjgpSRoC7yEQAvD_BwE"><span style="color: #0f57ab;">Apply Now</span></a></span>
+
+              </div>
+           </div>
+
+           <!--AMITY-->
+           <div class="select">
+            <div class="names">
+                <div class="symbol2"></div>
+                <div class="ids"><a href="#" style="color: #0f57ab; font-size: 20px;">Amity University, Gurugram</a>
+                  <div class="location"><img><span>Gurgaon .</span><span> Pvt</span><a href="#"><span style="color: #00943A; font-weight: bold;">   #99 NIRF</span></a></div>                  
+                </div>
+            </div>
+            <hr>
+            <div class="offers">
+               <div class="_ff">
+                <label class="labels" style="color: gray;">Courses offered</label>
+                <div class="ff2">
+                  <a href="#" style="color: black;"> 21 Courses</a>
+                  <a href="#"style="color: black;">star</a>
+                  <span> 4.0 </span>
+                </div>
+               </div>
+               <div class="_ff">
+                <label class="labels" style="color: gray;">Exams Accepted</label>
+                <div class="ff2">
+                  <span>JEE Mains,</span><span>CUET,</span><span>CBSE 12th...</span>
+                </div>
+               </div>
+               <div class="_ff">
+                <label class="labels" style="color: gray;">Total Tuition Fees</label>
+                <div class="ff2">₹ 7.84 L - 17.1 L</div>
+               </div>
+               <div class="_ff">
+                <label class="labels" style="color: gray;">Median Salary</label>
+                <div class="ff2">₹5.5 LPA</div>
+               </div>
+               <span style="margin-left:40px ;">Applications open . <a href="https://amity.edu/webcampaign/punjab/?WCID=getmyuni11012024A&utm_source=getmyuni&utm_medium=RM01&utm_campaign=getmyuni&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhcxlh5yyWXrRaCpN2AFwlO6mOp0LRcQjnOs1bKF4ohXFQlf3vacMsKBoCd3cQAvD_BwE"><span style="color: #0f57ab;">Apply Now</span></a></span>
+
+            </div>
+         </div>
+
+         <!--NORTHCAP-->
+         <div class="select">
+          <div class="names">
+              <div class="symbol3"></div>
+              <div class="ids"><a href="#" style="color: #0f57ab; font-size: 20px;">The NorthCap University</a>
+                <div class="location"><img><span>Gurgaon .</span><span> Pvt</span><a href="#"><span style="color: #00943A; font-weight: bold;">   #101 -150 NIRF</span></a></div>                  
+              </div>
+          </div>
+          <hr>
+          <div class="offers">
+             <div class="_ff">
+              <label class="labels" style="color: gray;">Courses offered</label>
+              <div class="ff2">
+                <a href="#" style="color: black;"> 19 Courses</a>
+                <a href="#"style="color: black;">star</a>
+                <span> 3.9 </span>
+              </div>
+             </div>
+             <div class="_ff">
+              <label class="labels" style="color: gray;">Exams Accepted</label>
+              <div class="ff2">
+                <span>JEE Mains,</span><span>CUET,</span>
+              </div>
+             </div>
+             <div class="_ff">
+              <label class="labels" style="color: gray;">Total Tuition Fees</label>
+              <div class="ff2">₹ 9 L - 9.89.1 L</div>
+             </div>
+             <div class="_ff">
+              <label class="labels" style="color: gray;">Median Salary</label>
+              <div class="ff2">₹5.5 LPA</div>
+             </div>
+             <span style="margin-left:40px ;">Applications open . <a href="https://apply.ncuindia.edu/lp/admissions2024.html?utm_source=CityInnovates&utm_medium=GoogleAds&utm_campaign=BrandNew&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhcxr4-hR_YsSfbmI8_GSIXXbeBEzOIVxGAtVIbd4SFWUdUSlJC2vHOhoCDtwQAvD_BwE"><span style="color: #0f57ab;">Apply Now</span></a></span>
+
+          </div>
+       </div>
+
+       <!--GD GOENKA-->
+       <div class="select">
+        <div class="names">
+            <div class="symbol4"></div>
+            <div class="ids"><a href="#" style="color: #0f57ab; font-size: 20px;">GD Goenka University</a>
+              <div class="location"><img><span>Gurgaon .</span><span> Pvt</span><a href="#"><span style="color: #00943A; font-weight: bold;">   #48 NIRF</span></a></div>                  
+            </div>
+        </div>
+        <hr>
+        <div class="offers">
+           <div class="_ff">
+            <label class="labels" style="color: gray;">Courses offered</label>
+            <div class="ff2">
+              <a href="#" style="color: black;"> 11 Courses</a>
+              <a href="#"style="color: black;">star</a>
+              <span> 3.8 </span>
+            </div>
+           </div>
+           <div class="_ff">
+            <label class="labels" style="color: gray;">Exams Accepted</label>
+            <div class="ff2">
+              <span>JEE Mains,</span><span>CUET,</span><span>CBSE 12th...</span>
+            </div>
+           </div>
+           <div class="_ff">
+            <label class="labels" style="color: gray;">Total Tuition Fees</label>
+            <div class="ff2">₹ 7.2 L - 11.8 L</div>
+           </div>
+           <div class="_ff">
+            <label class="labels" style="color: gray;">Median Salary</label>
+            <div class="ff2">₹5.53 LPA</div>
+           </div>
+           <span style="margin-left:40px ;">Applications open . <a href="https://www.gdgoenkauniversity.com/?utm_source=GoogleAds&utm_medium=PMax&utm_campaign=CUETVisit&campaignid=21326943337&adgroupid=&keyword=&device=c&gad_source=1&gclid=CjwKCAjwhIS0BhBqEiwADAUhc9SlKsVOq_PBVAu13mxxKTgLWowp38TGOprb9YWRDTbXxHixFtSwJRoCsA0QAvD_BwE"><span style="color: #0f57ab;">Apply Now</span></a></span>
+
+        </div>
+     </div>
+
+     <!--DPG-->
+     <div class="select">
+      <div class="names">
+          <div class="symbol5"></div>
+          <div class="ids"><a href="#" style="color: #0f57ab; font-size: 20px;">DPG Institute of Technology and  Management</a>
+            <div class="location"><img><span>Gurgaon .</span><span> Pvt</span><a href="#"><span style="color: #00943A; font-weight: bold;">   #48 NIRF</span></a></div>                  
+          </div>
+      </div>
+      <hr>
+      <div class="offers">
+         <div class="_ff">
+          <label class="labels" style="color: gray;">Courses offered</label>
+          <div class="ff2">
+            <a href="#" style="color: black;"> 12 Courses</a>
+            <a href="#"style="color: black;">star</a>
+            <span> 3.3 </span>
+          </div>
+         </div>
+         <div class="_ff">
+          <label class="labels" style="color: gray;">Exams Accepted</label>
+          <div class="ff2">
+            <span>JEE Mains,</span>
+          </div>
+         </div>
+         <div class="_ff">
+          <label class="labels" style="color: gray;">Total Tuition Fees</label>
+          <div class="ff2">₹ 2.68 L - 3.58 L</div>
+         </div>
+         <div class="_ff">
+          <label class="labels" style="color: gray;">Median Salary</label>
+          <div class="ff2">₹5.53 LPA</div>
+         </div>
+         <span style="margin-left:40px ;">Applications open . <a href="https://www.dpgitm.ac.in/"><span style="color: #0f57ab;">Apply Now</span></a></span>
+
+      </div>
+   </div>
+     
+      </div>
+
+      <div class="part3">
+        <div class="ads">
+           <img src="laptop-8770486_640.png">
+           <div class="recommand" style="font-weight: bold; font-size: 20px;">Get personalized college recommendation</div>
+           <div class="pref">Registering gives you the benefit to browse variety of colleges based on your preferences</div>
+           <button class="btns">Register >></button>
+          </div>
+      </div>
+ </div>  
+  <!--Main section ends here -->
+  <footer class="footer">
+   <div class="boxes">
+    <div class="content">
+      <h3>INFORMATION</h3>
+      <p>About us</p>
+      <p>Jobs</p>
+      <p>Guidlines</p>
+      <p>Copyrights</p>
+    </div>
+    <div class="content">
+       <h3>LEGAL</h3>
+      <p>Terms of use</p>
+      <p>License agreement</p>
+      <p>Privacy Policy</p>
+      <p>Cookies</p>
+     </div>
+     <div class="content">
+       <h3>SUPPORT</h3>
+       <p>FAQ</p>
+       <p>Search guide</p>
+       <p>Contact</p>
+     </div>
+    <div class="content" style="width: 300px;"><h3>SOCIAL MEDIA</h3>
+      <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff; font-size:30px;"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter" style="color: #fcfcfc;font-size:30px;"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;font-size:30px;"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube" style="color: #ffffff;font-size:30px;"></i></a>
+      <a href="#"><i class="fa-solid fa-envelope" style="color: #ffffff;font-size:30px;"></i></a>
+      <div style="color: #fff;font-size: 14px; margin-top: 30px;">Get exclusive assests sent straight to your inbox</div>
+      <div class="sign">Sign up</div>
+     </div>
+   </div>
+   <div class="line">
+     <hr>
+     <div class="lst"><h1>W!SER</h1><p>Copyright @copy 2024 Wiser/Saloni singh All rights reserved.</p></div>
+ </div>
+ </footer>
+
+
+
+
+   <script src="script.js"></script> 
+</body>
+</html>
