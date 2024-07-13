@@ -17,3 +17,4 @@
 
    #  By integrating these features and design considerations, Wiser aims to provide a user-friendly and comprehensive platform for students and learners, seeking educational resources, whether it's information about colleges, tutors, or study materials.
     
+![Screenshot (15)](https://github.com/user-attachments/assets/eecf8e9f-c235-44f6-b9c3-cda70a342ef1)
